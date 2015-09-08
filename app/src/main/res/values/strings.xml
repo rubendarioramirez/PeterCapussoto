@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PeterCapussoto</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_item_detail">MenuItemDetail</string>
+    <string name="title_activity_biography">Biography</string>
+    <string name="title_activity_photos">photos</string>
+</resources>
