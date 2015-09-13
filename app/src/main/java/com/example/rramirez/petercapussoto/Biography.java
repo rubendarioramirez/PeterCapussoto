@@ -5,19 +5,24 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class Biography extends AppCompatActivity {
 
-    private WebView webView;
+    private WebView mWebView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.biography);
 
-        webView = (WebView)findViewById(R.id.webView);
+        //Webview set up
+        mWebView = (WebView)findViewById(R.id.webView);
+        mWebView.getSettings().setJavaScriptEnabled(true);
+        // Stop local links and redirects from opening in browser instead of WebView
+        mWebView.setWebViewClient(new MyAppWebViewClient());
+        mWebView.loadUrl("https://es.wikipedia.org/wiki/Diego_Capusotto");
 
-        webView.loadUrl("https://es.wikipedia.org/wiki/Diego_Capusotto");
     }
 
     @Override
