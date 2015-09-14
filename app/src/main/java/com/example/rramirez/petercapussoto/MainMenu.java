@@ -36,9 +36,9 @@ public class MainMenu extends AppCompatActivity {
                     case 0: Intent biography = new Intent(MainMenu.this, Biography.class);
                         startActivity(biography);
                         break;
-                  /*  case 1: Intent videos = new Intent(MainMenu.this, videos.class);
+                    case 1: Intent videos = new Intent(MainMenu.this, menu_video.class);
                         startActivity(videos);
-                        break; */
+                        break;
                     case 2: Intent photos = new Intent(MainMenu.this, photos.class);
                         startActivity(photos);
                         break;

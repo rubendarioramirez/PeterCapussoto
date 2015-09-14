@@ -30,6 +30,10 @@
             android:name=".photos"
             android:label="@string/title_activity_photos" >
         </activity>
+        <activity
+            android:name=".menu_video"
+            android:label="@string/title_activity_menu_video" >
+        </activity>
     </application>
 
 </manifest>
