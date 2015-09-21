@@ -7,4 +7,5 @@
     <string name="title_activity_biography">Biography</string>
     <string name="title_activity_photos">photos</string>
     <string name="title_activity_menu_video">menu_video</string>
+    <string name="title_activity_video_test">videoTest</string>
 </resources>
